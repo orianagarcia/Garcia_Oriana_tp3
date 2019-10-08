@@ -1,0 +1,6 @@
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.csproj.CoreCompileInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.pdb

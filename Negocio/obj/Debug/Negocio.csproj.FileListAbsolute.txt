@@ -1,0 +1,9 @@
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\bin\Debug\Negocio.dll
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\bin\Debug\Dominio.dll
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\bin\Debug\Dominio.pdb
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\obj\Debug\Negocio.dll
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio\obj\Debug\Negocio.pdb

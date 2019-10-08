@@ -1,0 +1,2 @@
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web2\obj\Debug\Web2.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web2\obj\Debug\Web2.csproj.CoreCompileInputs.cache

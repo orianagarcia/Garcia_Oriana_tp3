@@ -1,0 +1,6 @@
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.csproj.CoreCompileInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.RazorAssemblyInfo.cs
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfoInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Web\obj\Debug\netcoreapp2.1\Web.AssemblyInfo.cs
