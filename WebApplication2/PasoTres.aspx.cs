@@ -16,7 +16,6 @@ namespace WebApplication2
             if (!IsPostBack)
             {
                 var idPremio = Request.QueryString["valor"];
-                var idVoucher = Session["VoucherCodigo" + Session.SessionID];
             }
         }
         protected void BtnParticipar_click(object sender, EventArgs e)
@@ -32,14 +31,33 @@ namespace WebApplication2
             cliente.email = txbMail.Text;
             cliente.direccion = txbDireccion.Text;
             cliente.ciudad = txbCiudad.Text;
-            cliente.cp = Convert.ToInt32(txbCp.Text);
+            cliente.cp = txbCp.Text;
             cliente.fechaRegistro = DateTime.Now;
             auxCliente.Agregar(cliente);
 
+            string idVoucher = Session["VoucherCodigo" + Session.SessionID].ToString();
+            voucher.Actualizar(voucher.BuscarVoucher(idVoucher));
 
 
-
-
+        }
+        protected void BtnBuscar_click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente();
+            clienteNegocio cliNegocio = new clienteNegocio();
+            cliente = cliNegocio.Buscar(Int32.Parse(txbDNI.Text));
+            if (cliente != null)
+            {
+                txbNombre.Text = cliente.nombre;
+                txbApellido.Text = cliente.apellido;
+                txbMail.Text = cliente.email;
+                txbDireccion.Text = cliente.direccion;
+                txbCiudad.Text = cliente.ciudad;
+                txbCp.Text = cliente.cp;
+            }
+            else
+            {
+                txbDNI.Text = " ";
+            }
         }
     }
 }

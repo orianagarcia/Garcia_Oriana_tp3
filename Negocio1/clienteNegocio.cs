@@ -38,5 +38,39 @@ namespace Negocio1
             }
 
         }
+
+        public Cliente Buscar(int dniBuscado)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Cliente aux = new Cliente();
+            
+            try
+            {
+                datos.setearQuery("select id,dni,nombre,apellido,email,direccion,ciudad,codigopostal from clientes where dni="+dniBuscado+"");
+                datos.ejecutarLector();
+                while (datos.lector.Read())
+                {
+                    aux.id = (long)datos.lector["id"];
+                    aux.dni = datos.lector.GetInt32(1);
+                    aux.nombre = datos.lector.GetString(2);
+                    aux.apellido = datos.lector.GetString(3);
+                    aux.email = datos.lector.GetString(4);
+                    aux.direccion = datos.lector.GetString(5);
+                    aux.ciudad = datos.lector.GetString(6);
+                    aux.cp = datos.lector.GetString(7);
+                    
+                }
+                return aux;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }

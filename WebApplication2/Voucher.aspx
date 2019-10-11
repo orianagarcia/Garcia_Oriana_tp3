@@ -11,7 +11,7 @@
          <asp:TextBox ID="txbVoucher" runat="server" ClientIDMode="Static" class="form-control col-4" placeholder="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"></asp:TextBox>
         <p> </p>
        <asp:Button type="button" class="btn btn-dark" ClientIDMode="Static" ID="BtnVoucherAceptar" runat="server" Text="Siguiente &raquo;" OnClick="BtnVoucherAceptar_Click" OnClientClick= "" />
-    
+     <a href="Premios.aspx?valorVoucher=<%= txbVoucher%>" class="btn btn-dark" ID="btnAceptar" style="cursor: pointer">Ingresar" OnClick="BtnVoucherAceptar_Click"</a>
     </div>
            
 

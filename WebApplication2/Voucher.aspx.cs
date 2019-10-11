@@ -22,13 +22,12 @@ namespace WebApplication2
                 VoucherNegocio voucherNegocio = new VoucherNegocio();
                 Vouchers voucherAux = new Vouchers();
                 voucherAux = voucherNegocio.BuscarVoucher(txbVoucher.Text);
-
+                string voucher = txbVoucher.Text;
                 if (voucherAux.codigo != null)
                 {
                     if (voucherAux.estado == false)
                     {
-                        Session["VoucherCodigo" + Session.SessionID] = txbVoucher.Text;
-                        var valor = Session["VoucherCodigo" + Session.SessionID];
+                        Session["VoucherCodigo" + Session.SessionID] = voucher;
                         Response.Redirect("Premios.aspx");
                     }
                 }

@@ -4,3 +4,9 @@ C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.cspr
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.csproj.CoreCompileInputs.cache
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.dll
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Dominio1\obj\Debug\Dominio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\obj\Debug\Dominio1.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\obj\Debug\Dominio1.csproj.CoreCompileInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Dominio1\obj\Debug\Dominio1.pdb

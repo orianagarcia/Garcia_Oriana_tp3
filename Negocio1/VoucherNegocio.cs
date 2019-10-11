@@ -43,7 +43,7 @@ namespace Negocio1
 
             try
             {
-                datos.setearQuery("update vouchers set Estado=1,idCliente="+ aux.idCliente+",IdProducto="+aux.idProducto+",FechaRegistro=GETDATE() where CodigoVoucher = '"+aux.id+"' ");
+                datos.setearQuery("update vouchers set Estado=1,idCliente="+ aux.idCliente+",IdProducto="+aux.idProducto+",FechaRegistro=GETDATE() where CodigoVoucher = '"+aux.codigo+"' ");
                 datos.ejecutarLector();
             }
             catch (Exception ex)

@@ -7,3 +7,12 @@ C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio1\bin\Debug\Dominio1.pdb
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio1\obj\Debug\Negocio1.csproj.CopyComplete
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio1\obj\Debug\Negocio1.dll
 C:\Users\ORIANAG\source\repos\TP3_Garcia_Oriana\Negocio1\obj\Debug\Negocio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\bin\Debug\Negocio1.dll
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\bin\Debug\Negocio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\bin\Debug\Dominio1.dll
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\bin\Debug\Dominio1.pdb
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\obj\Debug\Negocio1.csprojAssemblyReference.cache
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\obj\Debug\Negocio1.csproj.CoreCompileInputs.cache
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\obj\Debug\Negocio1.csproj.CopyComplete
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\obj\Debug\Negocio1.dll
+C:\Users\ORIANAG\source\repos\TP3_PROG3_ORIANA_GARCIA\Garcia_Oriana_tp3\Negocio1\obj\Debug\Negocio1.pdb
