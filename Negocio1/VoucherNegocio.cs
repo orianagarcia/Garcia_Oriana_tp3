@@ -15,7 +15,7 @@ namespace Negocio1
             Vouchers aux = null;
             try
             {
-                datos.setearQuery("select id,codigoVoucher,Estado,IdCliente,IdProducto,FechaRegistro FROM [TP_WEB].[dbo].[Vouchers] where CodigoVoucher =  '" + codigo + "'");
+                datos.setearQuery("select id,codigoVoucher,Estado,IdCliente,IdProducto,FechaRegistro FROM [TP_WEB].[dbo].[Vouchers] where CodigoVoucher =  '" +codigo+"'");
                 datos.ejecutarLector();
                 while (datos.lector.Read())
                 {
@@ -36,14 +36,16 @@ namespace Negocio1
             }
         }
 
-        public void Actualizar (Vouchers aux)
+        public void Actualizar (Vouchers aux,long idProducto)
         {
             AccesoDatos datos = new AccesoDatos();
             Vouchers voucher = new Vouchers(); 
 
             try
             {
-                datos.setearQuery("update vouchers set Estado=1,idCliente="+ aux.idCliente+",IdProducto="+aux.idProducto+",FechaRegistro=GETDATE() where CodigoVoucher = '"+aux.codigo+"' ");
+                datos.setearQuery("update vouchers set Estado=1,idCliente=@idCliente,IdProducto=@idProducto,FechaRegistro=GETDATE() where CodigoVoucher = '"+aux.codigo+"' ");
+                datos.agregarParametro("@idProducto", idProducto);
+                datos.agregarParametro("@idCliente", 1);
                 datos.ejecutarLector();
             }
             catch (Exception ex)

@@ -16,6 +16,7 @@ namespace WebApplication2
             if (!IsPostBack)
             {
                 var idPremio = Request.QueryString["valor"];
+                string var = (string)Session["VoucherCodigo" + Session.SessionID];
             }
         }
         protected void BtnParticipar_click(object sender, EventArgs e)
@@ -34,9 +35,10 @@ namespace WebApplication2
             cliente.cp = txbCp.Text;
             cliente.fechaRegistro = DateTime.Now;
             auxCliente.Agregar(cliente);
-
-            string idVoucher = Session["VoucherCodigo" + Session.SessionID].ToString();
-            voucher.Actualizar(voucher.BuscarVoucher(idVoucher));
+            var idPremio = Request.QueryString["valor"];
+            string var = (string)Session["VoucherCodigo" + Session.SessionID];
+            auxVoucher.idProducto = Int64.Parse(idPremio);
+            voucher.Actualizar(voucher.BuscarVoucher(var),auxVoucher.idProducto);
 
 
         }

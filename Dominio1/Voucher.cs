@@ -12,7 +12,7 @@ namespace Dominio1
         public string codigo { get; set; }
         public bool estado { get; set; }
         public int idCliente { get; set; }
-        public int idProducto { get; set; }
+        public long idProducto { get; set; }
         public DateTime fechaRegistro { get; set; }
     }
 }

@@ -31,6 +31,10 @@ namespace WebApplication2
                         Response.Redirect("Premios.aspx");
                     }
                 }
+                else
+                {
+                    txbVoucher.Text = " ";
+                }
             }
             catch (Exception ex)
             {
